@@ -32,21 +32,21 @@ export default function Hero() {
                     </div>
 
                     <div className="flex flex-col gap-6 order-2 lg:order-2 text-center lg:text-left">
-                        <div className="space-y-4">
-                            <h1 className="text-5xl lg:text-7xl font-bold">
+                         <h1 className="space-y-4">
+                            <div className="text-5xl lg:text-7xl font-bold">
                                 Hi, I'm
-                            </h1>
-                            <h2 className="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-green-400 to-emerald-500 text-transparent bg-clip-text">
+                            </div>
+                            <div className="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-green-400 to-emerald-500 text-transparent bg-clip-text">
                                 Jovan Jovanovic
-                            </h2>
-                        </div>
+                            </div>
+                        </h1>
                         
                         <div className="flex flex-col gap-5 text-gray-300 w-full">
                         <p className="text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto">
-                           I’m a <span className="text-green-400 font-semibold">web developer</span> from Jagodina. It all started when I was a kid and became very passionate about computers and everything related to them. In early 2025, I started learning one of the core areas of computing — web development. I use all my free time to learn and improve.
+                           I’m a <span className="text-green-400 font-semibold">Full-Stack Web Developer</span> from Jagodina. In January 2025 I started learning one of the core areas of computing — web development. I use all my free time to learn and improve.
                         </p>
                         <p className="text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto">
-                         I started with frontend development, and once I was able to create clean layouts and make them interactive, I began dig deeper into frameworks and backend development. During my learning process, I built my first projects, which I believe can be useful for many people.
+                         It may seem that the time for learning is short but I started with frontend development, and once I was able to create clean layouts and make them interactive, I began dig deeper into frameworks and backend development. During my learning process, I built my first projects, which I believe can be useful for many people.
                         </p>
                         <p className="text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto">
                            I continue to use all my free time to code and improve both my frontend and backend skills. Nice to meet you, and I’m looking forward to building ideas and projects together.
@@ -57,9 +57,9 @@ export default function Hero() {
                             <a href="#projects" className="group relative px-8 py-3 bg-gradient-to-r from-green-500 to-emerald-500 text-white font-semibold rounded-lg shadow-lg hover:shadow-green-500/50 transition-all duration-300 hover:scale-105">
                                 <span className="relative z-10">View My Projects</span>
                             </a>
-                            <button className="px-8 py-3 bg-white/5 backdrop-blur-sm border border-white/10 text-white font-semibold rounded-lg hover:bg-white/10 hover:border-green-500/50 transition-all duration-300">
+                            <a href="/CV.pdf" download className="px-8 py-3 bg-white/5 backdrop-blur-sm border border-white/10 text-white font-semibold rounded-lg hover:bg-white/10 hover:border-green-500/50 transition-all duration-300">
                                 Download CV
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ export default function Hero() {
 
                 <section>
                     <div className="relative w-fit mx-auto mt-20 pb-5 font-bold">
-                    <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-emerald-400 rounded-full blur-2xl opacity-20 animate-pulse"></div>
+                    
                     <h3 className="text-2xl lg:text-4xl">Contact me</h3>
                     </div>
                     <div className="mt-10 pt-5 border-t w-full border-white/10">

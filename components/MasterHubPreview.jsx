@@ -77,7 +77,7 @@ export default function MasterHubPreview() {
                                         </li>
                                         <li className="flex items-start gap-2">
                                             <span className="text-green-400 mt-1">•</span>
-                                            <span>Cookies/Sessions</span>
+                                            <span>Sessions/Role</span>
                                         </li>
                                         <li className="flex items-start gap-2">
                                             <span className="text-green-400 mt-1">•</span>
