@@ -1,15 +1,9 @@
 import Image from "next/image";
 import jj from "@/public/jj.jpg";
 
-
-
-
-
-
 export default function Hero() {
     return (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-
             <div className="flex justify-center lg:justify-end order-1 lg:order-1">
                 <div className="relative">
                     <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-emerald-400 rounded-full blur-2xl opacity-20 animate-pulse"></div>
@@ -35,7 +29,7 @@ export default function Hero() {
 
                 <div className="flex flex-col gap-5 text-gray-300 w-full">
                     <p className="text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto">
-                        I&apos;m a <span className="text-green-400 font-semibold">Full-Stack Web Developer</span> from Jagodina. In January 2025 I started learning one of the core areas of computing — web development. I use all my free time to learn and improve.
+                        I&apos;m a <span className="text-green-400 font-semibold">Full-Stack Web Developer</span> from Jagodina. In January 2025 I started learning — web development. I use all my free time to learn and improve.
                     </p>
                     <p className="text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto">
                         It may seem that the time for learning is short but I started with frontend development, and once I was able to create clean layouts and make them interactive, I began dig deeper into frameworks and backend development. During my learning process, I built my first projects, which I believe can be useful for many people.
