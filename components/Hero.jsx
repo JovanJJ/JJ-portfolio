@@ -43,7 +43,7 @@ export default function Hero() {
                     <a href="#projects" className="group relative px-8 py-3 bg-gradient-to-r from-green-500 to-emerald-500 text-white font-semibold rounded-lg shadow-lg hover:shadow-green-500/50 transition-all duration-300 hover:scale-105">
                         <span className="relative z-10">View My Projects</span>
                     </a>
-                    <a href="/CV.pdf" download className="px-8 py-3 bg-white/5 backdrop-blur-sm border border-white/10 text-white font-semibold rounded-lg hover:bg-white/10 hover:border-green-500/50 transition-all duration-300">
+                    <a href="/final.pdf" download className="px-8 py-3 bg-white/5 backdrop-blur-sm border border-white/10 text-white font-semibold rounded-lg hover:bg-white/10 hover:border-green-500/50 transition-all duration-300">
                         Download CV
                     </a>
                 </div>
