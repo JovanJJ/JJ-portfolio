@@ -28,14 +28,14 @@ export default function Hero() {
                 </h1>
 
                 <div className="flex flex-col gap-5 text-gray-300 w-full">
-                    <p className="text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto">
-                        I&apos;m a <span className="text-green-400 font-semibold">Full-Stack Web Developer</span> from Jagodina. In January 2025 I started learning — web development. I use all my free time to learn and improve.
+                    <p className="text-lg lg:text-xl leading-relaxed max-w-2xl">
+                        I&apos;m a <span className="text-green-400 font-semibold">Full-Stack Web Developer.</span>
+                    </p>
+                    <p className="text-lg lg:text-xl leading-relaxed max-w-2xl">
+                        I build modern, responsive web applications with clean UI, scalable architecture, and solid backend logic. 
                     </p>
                     <p className="text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto">
-                        It may seem that the time for learning is short but I started with frontend development, and once I was able to create clean layouts and make them interactive, I began dig deeper into frameworks and backend development. During my learning process, I built my first projects, which I believe can be useful for many people.
-                    </p>
-                    <p className="text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto">
-                        I continue to use all my free time to code and improve both my frontend and backend skills. Nice to meet you, and I’m looking forward to building ideas and projects together.
+                        If you&apos;re looking for a developer to turn your idea into a working product, feel free to reach out.
                     </p>
                 </div>
 

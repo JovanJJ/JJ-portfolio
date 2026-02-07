@@ -39,6 +39,7 @@ export default function Stacks() {
     }, []);
     return (
         <div className="overflow-hidden">
+            <div className="mx-auto w-fit text-4xl font-bold mt-20">Technologies I use in real projects</div>
             <div
                 ref={containerRef}
                 className={`

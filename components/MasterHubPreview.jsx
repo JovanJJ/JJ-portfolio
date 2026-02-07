@@ -47,7 +47,7 @@ export default function MasterHubPreview() {
                     
 
                     <div id="projects" className="mt-10 w-full">
-                        <h3 className="text-2xl font-bold mb-6 pl-4">Master Hub</h3>
+                        <h3 className="text-2xl font-bold mb-6 pl-4">Master Hub - Job Board Website</h3>
 
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
                             
@@ -68,19 +68,19 @@ export default function MasterHubPreview() {
                                     <h4 className="text-lg font-semibold mb-3 text-green-400">Implementations:</h4>
                                     <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-gray-300">
                                         <li className="flex items-start gap-2">
-                                            <span className="text-green-400 mt-1">•</span>
+                                            <span className="text-green-400">•</span>
                                             <span>Next auth (login with Google/MasterHub account)</span>
                                         </li>
                                         <li className="flex items-start gap-2">
-                                            <span className="text-green-400 mt-1">•</span>
+                                            <span className="text-green-400">•</span>
                                             <span>Creating worker account</span>
                                         </li>
                                         <li className="flex items-start gap-2">
-                                            <span className="text-green-400 mt-1">•</span>
+                                            <span className="text-green-400">•</span>
                                             <span>Sessions/Role</span>
                                         </li>
                                         <li className="flex items-start gap-2">
-                                            <span className="text-green-400 mt-1">•</span>
+                                            <span className="text-green-400">•</span>
                                             <span>Responsive design</span>
                                         </li>
                                         <li className="flex items-start gap-2">
@@ -88,19 +88,19 @@ export default function MasterHubPreview() {
                                             <span>Pagination</span>
                                         </li>
                                         <li className="flex items-start gap-2">
-                                            <span className="text-green-400 mt-1">•</span>
+                                            <span className="text-green-400">•</span>
                                             <span>Password recovery</span>
                                         </li>
                                         <li className="flex items-start gap-2">
-                                            <span className="text-green-400 mt-1">•</span>
+                                            <span className="text-green-400">•</span>
                                             <span>Profile customization</span>
                                         </li>
                                         <li className="flex items-start gap-2">
-                                            <span className="text-green-400 mt-1">•</span>
+                                            <span className="text-green-400">•</span>
                                             <span>Comments section</span>
                                         </li>
                                         <li className="flex items-start gap-2">
-                                            <span className="text-green-400 mt-1">•</span>
+                                            <span className="text-green-400">•</span>
                                             <span>MongoDB</span>
                                         </li>
                                     </ul>
