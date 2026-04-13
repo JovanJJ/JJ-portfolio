@@ -24,7 +24,7 @@ export default function Stacks() {
                     setIsVisible(true);
                 }
             },
-            { rootMargin: "-100px" }
+            { rootMargin: "-10px" }
         );
 
         if (containerRef.current) {
@@ -39,7 +39,6 @@ export default function Stacks() {
     }, []);
     return (
         <div className="overflow-hidden">
-            <div className="mx-auto w-fit text-4xl font-bold mt-20">Technologies I use in real projects</div>
             <div
                 ref={containerRef}
                 className={`
@@ -50,58 +49,65 @@ export default function Stacks() {
                     }
       `}
             >
-                <section className="page-break mt-20 pt-12 border-t border-white/10 flex justify-center">
-                    <div className="space-y-8 p-4">
+                <section className="page-break mt-20  border-t border-white/10 flex justify-center flex-col">
+                    <div className="mx-auto w-fit text-center text-4xl font-bold mt-20">Technologies & Technical Skills</div>
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 max-w-2xl mx-auto gap-8 justify-items-center items-center p-4 mt-10">
 
-                        <div className="flex flex-col md:flex-row items-center md:items-start gap-6 w-full">
-                            <h3 className="text-xl font-semibold text-gray-400 md:w-32">Language:</h3>
-                            <div className="flex gap-6 justify-center md:justify-start w-full md:w-auto">
-                                <div className="min-w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
-                                    <Image src={js} alt="JavaScript" className="w-16 h-16" />
-                                    <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">JavaScript</span>
-                                </div>
-                            </div>
+                        <div className="w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
+                            <Image src="/typescript.svg" width={16} height={16} alt="TypeScript" className="w-16 h-16" />
+                            <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">TypeScript</span>
+                        </div>
+                        <div className="w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
+                            <Image src={js} alt="JavaScript" className="w-16 h-16" />
+                            <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">JavaScript</span>
+                        </div>
+                        <div className="w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
+                            <Image src="/html.svg" alt="html" width={16} height={16} className="w-16 h-16" />
+                            <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">HTML</span>
+                        </div>
+                        <div className="w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
+                            <Image src="/css.svg" alt="css" width={16} height={16} className="w-16 h-16" />
+                            <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">CSS</span>
                         </div>
 
-                        <div className="flex flex-col md:flex-row items-center md:items-start gap-6 w-full">
-                            <h3 className="text-xl font-semibold text-gray-400 md:w-32">Frameworks:</h3>
-                            <div className="flex flex-wrap gap-6 justify-center md:justify-start w-full md:w-auto">
-                                <div className="min-w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
-                                    <Image src={next} alt="Next.js" className="w-16 h-16 rounded-lg" />
-                                    <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">Next.js</span>
-                                </div>
-                                <div className="min-w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
-                                    <Image src={react} alt="React.js" className="w-16 h-16 rounded-lg" />
-                                    <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">React.js</span>
-                                </div>
-                                <div className="min-w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
-                                    <Image src={tailwind} alt="Tailwind CSS" className="w-16 h-16 rounded-lg" />
-                                    <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">Tailwind CSS</span>
-                                </div>
-                            </div>
+
+
+                        <div className="w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
+                            <Image src={react} alt="React.js" className="w-16 h-16 rounded-lg" />
+                            <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">React.js</span>
+                        </div>
+                        <div className="w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
+                            <Image src={next} alt="Next.js" className="w-16 h-16 rounded-lg" />
+                            <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">Next.js</span>
+                        </div>
+                        <div className="w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
+                            <Image src={tailwind} alt="Tailwind CSS" className="w-16 h-16 rounded-lg" />
+                            <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">Tailwind CSS</span>
                         </div>
 
-                        <div className="flex flex-col md:flex-row items-center md:items-start gap-6 w-full">
-                            <h3 className="text-xl font-semibold text-gray-400 md:w-32">Development Tools:</h3>
-                            <div className="flex flex-wrap gap-6 justify-center md:justify-start w-full md:w-auto">
-                                <div className="min-w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
-                                    <Image src={git} alt="Next.js" className="w-16 h-16 rounded-lg bg-white" />
-                                    <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">Git</span>
-                                </div>
-                                <div className="min-w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
-                                    <Image src={npm} alt="React.js" className="w-16 h-16 rounded-lg" />
-                                    <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">npm/pnpm</span>
-                                </div>
-                                <div className="min-w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
-                                    <Image src={vercel} alt="Tailwind CSS" className="w-16 h-16 rounded-lg" />
-                                    <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">Vercel</span>
-                                </div>
-                                <div className="min-w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
-                                    <Image src={mongodb} alt="Tailwind CSS" className="w-16 h-16 rounded-lg" />
-                                    <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">MongoDB</span>
-                                </div>
-                            </div>
+
+
+                        <div className="w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
+                            <Image src="/postgresql.svg" width={16} height={16} alt="postgresql.svg" className="w-16 h-16 rounded-lg bg-white" />
+                            <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">Postgresql</span>
                         </div>
+                        <div className="w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
+                            <Image src={mongodb} alt="Tailwind CSS" className="w-16 h-16 rounded-lg" />
+                            <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">MongoDB</span>
+                        </div>
+                        <div className="w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
+                            <Image src={git} alt="Next.js" className="w-16 h-16 rounded-lg bg-white" />
+                            <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">Git</span>
+                        </div>
+                        <div className="w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
+                            <Image src={npm} alt="React.js" className="w-16 h-16 rounded-lg" />
+                            <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">npm/pnpm</span>
+                        </div>
+                        <div className="w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
+                            <Image src={vercel} alt="Tailwind CSS" className="w-16 h-16 rounded-lg" />
+                            <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">Vercel</span>
+                        </div>
+
                     </div>
                 </section>
             </div>
