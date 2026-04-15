@@ -32,10 +32,10 @@ export default function Hero() {
                         I&apos;m a <span className="text-green-400 font-semibold">Full-Stack Web Developer.</span>
                     </p>
                     <p className="text-lg lg:text-xl leading-relaxed max-w-2xl">
-                        I build modern, responsive web applications with clean UI, scalable architecture, and solid backend logic. 
+                        I specialize in the MERN stack, Next.js ecosystem and PostgreSQL, building scalable web applications using best practices.
                     </p>
                     <p className="text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto">
-                        If you&apos;re looking for a developer to turn your idea into a working product, feel free to reach out.
+                        If you&apos;re looking for a developer to turn your idea into a working product, feel free to contact me.
                     </p>
                 </div>
 
