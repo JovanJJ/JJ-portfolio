@@ -51,12 +51,7 @@ export default function Stacks() {
             >
                 <section className="page-break mt-20  border-t border-white/10 flex justify-center flex-col">
                     <div className="mx-auto w-fit text-center text-4xl font-bold mt-20">Technologies & Technical Skills</div>
-                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 max-w-2xl mx-auto gap-8 justify-items-center items-center p-4 mt-10">
-
-                        <div className="w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
-                            <Image src="/typescript.svg" width={16} height={16} alt="TypeScript" className="w-16 h-16" />
-                            <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">TypeScript</span>
-                        </div>
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 max-w-2xl mx-auto gap-8 justify-items-center items-center p-4 mt-10">                  
                         <div className="w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
                             <Image src={js} alt="JavaScript" className="w-16 h-16" />
                             <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">JavaScript</span>
