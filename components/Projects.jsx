@@ -2,6 +2,7 @@ import MasterHubPreview from "./MasterHubPreview";
 import ReactLearningPreview from "../components/ReactLearningPreview";
 import SoundProofPreview from "../components/SoundProofPreview";
 import MonitorInvoice from "./MonitorInvoice";
+import CodeHoodie from "./CodeHoodie";
 
 export default function Projects() {
     return (
@@ -9,6 +10,7 @@ export default function Projects() {
             <h3 id="projects" className="text-2xl lg:text-4xl w-fit mx-auto mt-15 pb-10 font-bold">My projects</h3>
             <SoundProofPreview />
             <MonitorInvoice />
+            <CodeHoodie />
         </section>
     );
 }
