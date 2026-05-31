@@ -37,7 +37,7 @@ export default function MonitorInvoice() {
         transition-all duration-1000 ease-out
         ${isVisible
                         ? 'translate-x-0 opacity-100'
-                        : '-translate-x-20 opacity-0 lg:-translate-x-full'
+                        : 'translate-x-20 opacity-0 lg:translate-x-full'
                     }
       `}
             >
