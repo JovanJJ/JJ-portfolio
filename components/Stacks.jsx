@@ -45,8 +45,8 @@ export default function Stacks() {
                     <div className="mx-auto w-fit text-center text-4xl font-bold mt-20">Technologies & Technical Skills</div>
                     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 max-w-2xl mx-auto gap-8 justify-items-center items-center p-4 mt-10">                  
                         <div className="w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
-                            <Image src="/java-script.svg" width={64} height={64} alt="JavaScript" className="w-16 h-16" />
-                            <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">JavaScript</span>
+                            <Image src="/typescript.svg" width={64} height={64} alt="JavaScript" className="w-16 h-16" />
+                            <span className="text-sm text-gray-400 group-hover:text-green-400 transition-colors">TypeScript</span>
                         </div>
                         <div className="w-28 group flex flex-col items-center gap-2 p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-green-500/50 transition-all duration-300 hover:scale-105">
                             <Image src="/html.svg" alt="html" width={64} height={64} className="w-16 h-16" />

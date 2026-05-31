@@ -1,5 +1,5 @@
 import Image from "next/image";
-import jj from "@/public/jj.jpg";
+import jj from "@/public/jj.png";
 
 export default function Hero() {
     return (
@@ -33,6 +33,9 @@ export default function Hero() {
                     </p>
                     <p className="text-lg lg:text-xl leading-relaxed max-w-2xl">
                         I specialize in the MERN stack, Next.js ecosystem and PostgreSQL, building scalable web applications using best practices.
+                    </p>
+                    <p className="text-lg lg:text-xl leading-relaxed max-w-2xl">
+                        My expertise includes developing full-stack web applications, RESTful APIs, secure authentication systems, Stripe payment integrations, custom admin dashboards, responsive user interfaces, and efficient database design and integration.
                     </p>
                     <p className="text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto">
                         If you&apos;re looking for a developer to turn your idea into a working product, feel free to contact me.
