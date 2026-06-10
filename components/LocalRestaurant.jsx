@@ -50,7 +50,7 @@ export default function LocalRestaurant() {
 
 
                             <div className="group w-full h-full flex p-4">
-                                <a href={"#"} target="_blank" rel="noopener noreferrer" className="relative w-full aspect-video rounded-lg overflow-hidden group-hover:scale-105 transition ">
+                                <a href={"https://local-restaurant-brown.vercel.app/en"} target="_blank" rel="noopener noreferrer" className="relative w-full aspect-video rounded-lg overflow-hidden group-hover:scale-105 transition ">
                                     <Image src="/restaurant.png" alt="Local Restaurant preview" fill className="border-2 border-green-600 rounded-lg transition" />
                                 </a>
                             </div>
