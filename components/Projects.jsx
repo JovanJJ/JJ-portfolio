@@ -3,6 +3,7 @@ import ReactLearningPreview from "../components/ReactLearningPreview";
 import SoundProofPreview from "../components/SoundProofPreview";
 import MonitorInvoice from "./MonitorInvoice";
 import CodeHoodie from "./CodeHoodie";
+import LocalRestaurant from "./LocalRestaurant";
 
 export default function Projects() {
     return (
@@ -11,6 +12,7 @@ export default function Projects() {
             <MonitorInvoice />
             <SoundProofPreview />
             <CodeHoodie />
+            <LocalRestaurant />
         </section>
     );
 }
