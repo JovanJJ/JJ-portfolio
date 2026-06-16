@@ -53,7 +53,7 @@ export default function MasterHubPreview() {
 
 
                             <div className="group w-full h-full flex p-4">
-                                <a href={"https://soundproof-decoration.vercel.app/blog"} target="_blank" rel="noopener noreferrer" className="relative w-full aspect-video rounded-lg overflow-hidden group-hover:scale-105 transition ">
+                                <a href={"https://soundproof-decoration.vercel.app/"} target="_blank" rel="noopener noreferrer" className="relative w-full aspect-video rounded-lg overflow-hidden group-hover:scale-105 transition ">
                                     <Image src={soundproof} alt="img" fill className="border-2 border-green-600 rounded-lg transition" />
                                 </a>
                             </div>
