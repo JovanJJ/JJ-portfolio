@@ -47,7 +47,7 @@ export default function MonitorInvoice() {
 
 
                     <div id="projects" className="mt-10 w-full">
-                        <h3 className="text-2xl font-bold mb-6 pl-4">Soundproof Creations – Acoustic Curtains & Panels Website</h3>
+                        <h3 className="text-2xl font-bold mb-6 pl-4">Monitor Invoice – Project Tracking & Invoice Billing Website</h3>
 
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
 
